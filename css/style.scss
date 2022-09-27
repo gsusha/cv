@@ -233,6 +233,7 @@ html, body {
 .right {
   padding: 60px;
   opacity: .9;
+  flex: 1;
 
   .right__block {
     position: relative;
@@ -258,6 +259,12 @@ html, body {
         height: 2px;
         background: #BEBEBE;
       }
+    }
+
+    .right__desc {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
 
 
@@ -329,6 +336,7 @@ html, body {
           display: flex;
           align-self: center;
           gap: 5px;
+          width: fit-content;
         }
 
         .projects__tags {

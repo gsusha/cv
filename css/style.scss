@@ -261,6 +261,12 @@ html, body {
       }
     }
 
+    .right__desc {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
 
     .education {
       display: flex;

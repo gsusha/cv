@@ -274,6 +274,11 @@ html, body {
   height: 2px;
   background: #BEBEBE;
 }
+.right .right__block .right__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .right .right__block .education {
   display: flex;
   justify-content: space-between;

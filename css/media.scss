@@ -1,0 +1,70 @@
+/* Параметры для экранов меньше 1024px */
+@media (max-width: 1024px) {
+	.right {
+
+		.right__block {
+			.right__title {
+				&::after {
+					width: 50%;
+				}
+			}
+
+			.education {
+			flex-direction: column;
+
+				.graduate {
+					&:first-child {
+						margin: 0 0 20px 0;
+					}
+				}
+			}
+
+			.projects {
+				.projects__item {
+					.projects__tags {
+						display: flex;
+						gap: 4px;
+						flex-wrap: wrap;
+					}
+				}
+			}
+		}
+
+	}
+}
+
+/* Параметры для экранов меньше 768px */
+@media (max-width: 768px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.left {
+		width: 100%;
+
+		.info {
+			.info__content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	}
+
+	.right {
+		.right__block {
+			.right__title {
+				&::after {
+					width: 0;
+				}
+			}
+		}
+	}
+}
+
+/* Параметры для экранов меньше 426px */
+@media (max-width: 426px) {
+	.right {
+		padding: 60px 40px;
+	}
+}

@@ -39,6 +39,19 @@
 		flex-direction: column;
 	}
 
+	.main {
+		.main__items {
+			flex-direction: column;
+			align-items: center;
+
+			.main__item {
+				&:first-child {
+					margin: 0 0 40px 0;
+				}
+			}
+		}
+	}
+
 	.left {
 		width: 100%;
 
@@ -64,6 +77,17 @@
 
 /* Параметры для экранов меньше 426px */
 @media (max-width: 426px) {
+	.main {
+		.main__items {
+			.main__item {
+				.main__img {
+					width: 240px;
+					height: 240px;
+				}
+			}
+		}
+	}
+
 	.right {
 		padding: 60px 40px;
 	}

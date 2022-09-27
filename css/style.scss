@@ -3,22 +3,22 @@
 
 /* ------ Оболочка  ------ */
 
-html,body {
-	height: 100%;
-	font-family: "Roboto";
-	font-size: 14px;
-	font-weight: 400;
-	color: #292929;
-	line-height: 1.5;
-	background: #F7F8FB;
-	padding: 10px;
+html, body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #292929;
+  line-height: 1.5;
+  background: #F7F8FB;
+  padding: 10px;
 }
 
 /* ------ Контейнеры ------ */
 
 .wrapper {
-	max-width: 1100px;
-  margin: 0px auto;
+  max-width: 1100px;
+  margin: 0 auto;
   background: #fff;
   display: flex;
 }
@@ -76,233 +76,279 @@ html,body {
 /* ------ Основная часть ------ */
 
 .left {
-	width: 360px;
-	opacity: .9;
+  width: 360px;
+  opacity: .9;
 
-	.info {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 60px;
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
 
-		.info__content {
-			.img {
-			width: 160px;
-			height: 160px;
-			margin: 0 0 40px 0;
+    .info__content {
+      .img {
+        width: 160px;
+        height: 160px;
+        margin: 0 0 40px 0;
 
-				img {
-					width: 100%;
-					height: 100%;
-					border-radius: 50%;
-					border: 2px solid transparent;
-					outline: solid 3px #C0C0C0;
-					object-fit: cover;
-				}
-			}
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          border: 2px solid transparent;
+          outline: solid 3px #C0C0C0;
+          object-fit: cover;
+        }
+      }
 
-			.name {
-				font-size: 40px;
-				font-weight: 700;
-				line-height: 22px;
-				text-transform: uppercase;
-			}
+      .name {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+      }
 
-			.lastname {
-				font-size: 40px;
-				text-transform: uppercase;
-				margin: 0 0 10px 0;
-			}
+      .lastname {
+        font-size: 40px;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+      }
 
-			.position {
-				color: #707070;
-				font-size: 18px;
-				font-weight: 500;
-			}
+      .position {
+        color: #707070;
+        font-size: 18px;
+        font-weight: 500;
+      }
 
-		}
+    }
 
-	}
+  }
 
-	.contact {
+  .contact {
 
-		.item {
-			display: flex;
-			align-items: center;
-			padding: 10px 20px 10px 80px;
-			color: #fff;
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px 10px 80px;
+      color: #fff;
 
-			&:first-child {
-				background: #A0A0A0;
-			}
+      &:first-child {
+        background: #A0A0A0;
+      }
 
-			&:nth-child(2) {
-				&:hover {
-					background: #707070;
-				}
-				background: #909090;
-			}
+      &:nth-child(2) {
+        &:hover {
+          background: #707070;
+        }
 
-			&:nth-child(3) {
-				&:hover {
-					background: #686868;
-				}
-				background: #808080;
-			}
+        background: #909090;
+      }
 
-			&:last-child {
-				&:hover {
-					background: #585858;
-				}
-				background: #707070;
-			}
+      &:nth-child(3) {
+        &:hover {
+          background: #686868;
+        }
 
-			.icon {
-				margin: 0 20px 0 0;
-			}
+        background: #808080;
+      }
 
-			.item__info {
-				.item__title {
-					font-weight: 500;
-				}
-				.item__subtitle {}
-			}
+      &:last-child {
+        &:hover {
+          background: #585858;
+        }
 
-		}
+        background: #707070;
+      }
 
-	}
+      .icon {
+        margin: 0 20px 0 0;
+      }
 
-	.more {
-		padding: 60px 40px;
+      .item__info {
+        .item__title {
+          font-weight: 500;
+        }
 
-		.more__title {
-			font-size: 20px;
-			font-weight: 700;
-			margin: 0 0 20px 0;
-		}
+        .item__subtitle {
+        }
+      }
 
-		.more__items {
-			.more__item {
-				display: flex;
-				justify-content: space-between;
-				margin: 0 0 10px 0;
+    }
 
-				.more__property {
-					font-weight: 500;
-				}
-				.more__value {}
-			}
-		}
+  }
 
-	}
+  .more {
+    padding: 60px 40px;
+
+    .more__title {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 20px 0;
+    }
+
+    .more__items {
+      .more__item {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 10px 0;
+
+        .more__property {
+          font-weight: 500;
+        }
+
+        .more__value {
+        }
+      }
+    }
+
+  }
 
 }
 
 
 .right {
-	padding: 60px;
-	opacity: .9;
+  padding: 60px;
+  opacity: .9;
 
-	.right__block {
-		position: relative;
-		margin: 0 0 40px 0;
+  .right__block {
+    position: relative;
+    margin: 0 0 40px 0;
 
-		&:last-child {
-			margin: 0;
-		}
+    &:last-child {
+      margin: 0;
+    }
 
-		.right__title {
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: 20px;
-			margin: 0 0 20px 0;
-			&::after {
-				content: '';
-				position: absolute;
-				top: 14px;
-				right: 0;
-				display: block;
-				width: 420px;
-				height: 2px;
-				background: #BEBEBE;
-			}
-		}
+    .right__title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0 0 20px 0;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 14px;
+        right: 0;
+        display: block;
+        width: 420px;
+        height: 2px;
+        background: #BEBEBE;
+      }
+    }
 
 
-		.education {
-			display: flex;
-			justify-content: space-between;
+    .education {
+      display: flex;
+      justify-content: space-between;
 
-			.graduate {
-				font-size: 12px;
+      .graduate {
+        font-size: 12px;
 
-				.graduate__name {
-					font-weight: 500;
-					font-size: 14px;
-					margin: 0 0 4px 0;
-				}
-				.graduate__uni {
-					font-style: italic;
-					margin: 0 0 10px 0;
-				}
-				.graduate__type {
-					margin: 0 0 10px 0;
-				}
-				.graduate__yrs {
-					font-weight: 500;
-					font-style: italic;	
-				}
-			}
-		}
+        .graduate__name {
+          font-weight: 500;
+          font-size: 14px;
+          margin: 0 0 4px 0;
+        }
 
-		.exp {
+        .graduate__uni {
+          font-style: italic;
+          margin: 0 0 10px 0;
+        }
 
-			.exp__item {
-				margin: 0 0 20px 0;
+        .graduate__type {
+          margin: 0 0 10px 0;
+        }
 
-				.exp__position {
-					font-weight: 500;
-					font-size: 14px;
-					margin: 0 0 4px 0;
-				}
-				.exp__company {
-					font-size: 12px;
-					font-style: italic;
-					margin: 0 0 10px 0;
-				}
-				.exp__desc {}
-			}
-		}
+        .graduate__yrs {
+          font-weight: 500;
+          font-style: italic;
+        }
+      }
+    }
 
-		.projects {
+    .exp {
 
-			.projects__item {
-				margin: 0 0 20px 0;
+      .exp__item {
+        margin: 0 0 20px 0;
 
-				&:last-child {
-					margin: 0;
-				}
+        .exp__position {
+          font-weight: 500;
+          font-size: 14px;
+          margin: 0 0 4px 0;
+        }
 
-				.projects__name {
-					font-weight: 500;
-					font-size: 14px;
-					margin: 0 0 4px 0;
-				}
-				.projects__tags {
-					font-size: 12px;
-					margin: 0 0 10px 0;
+        .exp__company {
+          font-size: 12px;
+          font-style: italic;
+          margin: 0 0 10px 0;
+        }
 
-					.tag {
-						background: #707070;
-						color: #fff;
-						padding: 2px 10px;
-					}
-				}
-				.projects__desc {}
-			}
-		}
+        .exp__desc {
+        }
+      }
+    }
 
-	}
+    .projects {
+
+      .projects__item {
+        margin: 0 0 20px 0;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        .projects__name {
+          font-weight: 500;
+          font-size: 14px;
+          margin: 0 0 4px 0;
+        }
+
+        .projects__tags {
+          font-size: 12px;
+          margin: 0 0 10px 0;
+
+          .tag {
+            background: #707070;
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 10px;
+          }
+
+          .red {
+            background: #e53935;
+          }
+
+          .blue {
+            background: #1e88e5;
+          }
+
+          .green {
+            background: #43a047;
+          }
+
+          .teal {
+            background: #00897b;
+          }
+
+          .orange {
+            background: #ff9800;
+          }
+
+          .violet {
+            background: #8e24aa;
+          }
+
+          .pink {
+            background: #d81b60;
+          }
+        }
+
+        .projects__desc {
+        }
+      }
+    }
+
+  }
 }
 
 

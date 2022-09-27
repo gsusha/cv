@@ -363,7 +363,7 @@ html, body {
 .right .right__block .projects .projects__item .projects__tags .tag {
   background: #707070;
   color: #fff;
-  padding: 2px 10px;
+  padding: 3px 10px;
 }
 .right .right__block .projects .projects__item .projects__tags .red {
   background: #e53935;

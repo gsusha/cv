@@ -17,12 +17,12 @@
                     <img src="img/rus.jpg" alt="Ruslan Uzairov">
                 </div>
                 <div class="name">Руслан</div>
-                <div class="lastname">Узаиров</div>
+               <!--  <div class="lastname">Узаиров</div> -->
                 <div class="position">Flutter-разработчик</div>
             </div>
         </div>
 
-        <div class="contact">
+        <!-- <div class="contact">
             <div class="item">
                 <div class="icon">
                     <img src="img/pin.svg" alt="Location">
@@ -90,11 +90,31 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
     </div>
 
     <div class="right">
+
+        <div class="right__block">
+            <div class="right__title">
+                Технологический стек
+            </div>
+            <div class="right__desc">
+                <p>
+                    Flutter, Dart, BLoC, Cubit, RX, RestAPI, Moor Database, DI, Build Runner
+                </p>
+                <p>
+                    React, JavaScript, TypeScript, Redux
+                </p>
+                <p>
+                    Java, Maven, Hibernate, JDBC, Log4J2, Junit, MongoDB
+                </p>
+                <p>
+                    Git, Jira, Figma, Trello
+                </p>
+            </div>
+        </div>
 
         <div class="right__block">
             <div class="right__title">
@@ -165,6 +185,13 @@
             <div class="right__desc">
                 <div class="exp">
                     <div class="exp__item">
+                        <div class="exp__position">Frontend-разработчик</div>
+                        <div class="exp__company">Miura Tech / Таганрог (удалённо) / Сентябрь 2021 — Декабрь 2021</div>
+                        <div class="exp__desc">
+                            Работа над несколькими React-проектами.
+                        </div>
+                    </div>
+                    <div class="exp__item">
                         <div class="exp__position">Flutter-разработчик</div>
                         <div class="exp__company">Рубиум / Таганрог (удалённо) / Апрель 2022 — настоящее время</div>
                         <div class="exp__desc">
@@ -175,7 +202,7 @@
                     </div>
                     <div class="exp__item">
                         <div class="exp__position">Фриланс</div>
-                        <div class="exp__company">Май 2021 — настоящее время</div>
+                        <div class="exp__company">Февраль 2019 — настоящее время</div>
                         <div class="exp__desc">
                             Занимаюсь краткосрочными проектами по разработке сайтов и мобильных приложений в составе
                             команды друзей.
@@ -191,6 +218,22 @@
             </div>
             <div class="right__desc">
                 <div class="projects">
+
+                    <div class="projects__item">
+                        <div class="projects__name">Orator.club</div>
+                        <div class="projects__tags">
+                            <!-- <span class="tag teal">Commercial</span> -->
+                            <span class="tag blue">TypeScript</span>
+                            <span class="tag blue">React</span>
+                            <span class="tag violet">Redux</span>
+                            <span class="tag pink">GraphQL</span>
+                        </div>
+                        <div class="projects__desc">
+                            Редизайн и модернизация старого сайта с переходом на клиент-серверную архитектуру.
+                            <br>
+                            Задачи: перенос на React, реализация UX, имплементация адаптивных вложенных слайдеров, подключение к бэку. Backend на GraphCMS.
+                        </div>
+                    </div>
 
                     <div class="projects__item">
                         <a class="projects__name" href="https://github.com/black-rusuz/Accounter" target="blank">
@@ -210,7 +253,7 @@
                             <span class="tag blue">Hibernate</span>
                         </div>
                         <div class="projects__desc">
-                            Pet Project в роли курсовго проекта CLI-приложения.
+                            Pet Project
                             <br>
                             Применение ООП, чистой архитектуры, отсутствие хардкода, маппинг данных, работа с Entities и
                             их конвертерами. Unit-тестирование всех методов API с полным покрытием.
@@ -231,16 +274,15 @@
                             <span class="tag red">Bluetooth</span>
                         </div>
                         <div class="projects__desc">
-                            Выпускная квалификационная работа бакалавра.
-                            <br>
                             Приложение с RestAPI и Bluetooth-подключением к устройству на базе Arduino.
+                            <br>
+                            Задачи: составление ТЗ, анализ вариантов разработки, проектирование, описание моделей и вариантов использования, вёрстка по макету.
                         </div>
                     </div>
 
                     <div class="projects__item">
                         <div class="projects__name">Смартомато</div>
                         <div class="projects__tags">
-                            <span class="tag teal">Commercial</span>
                             <span class="tag blue">Dart</span>
                             <span class="tag blue">Flutter</span>
                             <span class="tag green">BLoC</span>
@@ -261,7 +303,7 @@
                             <img src="img/link.svg" alt="Link">
                         </a>
                         <div class="projects__tags">
-                            <span class="tag teal">Hackathon</span>
+                            <!-- <span class="tag teal">Hackathon</span> -->
                             <span class="tag blue">Dart</span>
                             <span class="tag blue">Flutter</span>
                             <span class="tag green">BLoC</span>
@@ -269,11 +311,31 @@
                             <span class="tag orange">RestAPI</span>
                         </div>
                         <div class="projects__desc">
-                            Уверенная победа в "Хакатон Роспатент ЮФУ" — мобильное приложение для поиска патентов в
-                            едином реестре с предоставленным API.
+                            Мобильное приложение для поиска патентов в едином реестре с предоставленным API.
                             <br>
                             Задачи: конфигурирование проектной базы, написание бизнес-логики и слоя данных, проведение
                             ревью и рефакторинга.
+                        </div>
+                    </div>
+
+                    <div class="projects__item">
+                        <a class="projects__name" href="https://github.com/black-rusuz/rospatent" target="blank">
+                            Таск-менеджер
+                            <img src="img/link.svg" alt="Link">
+                        </a>
+                        <div class="projects__tags">
+                            <!-- <span class="tag teal">Hackathon</span> -->
+                            <span class="tag blue">Dart</span>
+                            <span class="tag blue">Flutter</span>
+                            <span class="tag green">BLoC</span>
+                            <span class="tag green">DI</span>
+                            <span class="tag orange">RestAPI</span>
+                            <span class="tag">CSV</span>
+                        </div>
+                        <div class="projects__desc">
+                            Мобильное приложение для ведения задач в корпоративных условиях.
+                            <br>
+                            Задачи: проектирование, конфигурирование проектной базы, описание моделей и вариантов использования, написание бизнес-логики и слоя данных, вёрстка.
                         </div>
                     </div>
 

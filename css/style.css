@@ -407,7 +407,7 @@ html, body {
 /* Параметры для экранов меньше 1024px */
 @media (max-width: 1024px) {
   .right .right__block .right__title::after {
-    width: 50%;
+    display: none;
   }
   .right .right__block .education {
     -webkit-box-orient: vertical;
